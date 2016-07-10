@@ -19,7 +19,7 @@ def gauss_jacobi(A, b, n, e):
     for k in range(n):
         X.append(1)
         x.append(0)
-    while(nint < n*n):
+    while(nint < 10000):
         for i in range(n):
             soma = 0
             for j in range(n):
